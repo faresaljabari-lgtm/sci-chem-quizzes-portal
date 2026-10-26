@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#123a5a">
+<title>بوابة اختبارات الأستاذ فارس الجعبري</title>
+<style>
+:root {
+  --navy:#123a5a; --navy2:#1e5a84; --blue:#2f80c1; --gold:#d5a62f;
+  --bg:#f4f8fb; --card:#ffffff; --line:#d9e5ee; --text:#173047;
+  --muted:#6b7f90;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Tahoma,Arial,"Segoe UI",sans-serif;background:var(--bg);color:var(--text)}
+.hero{background:linear-gradient(135deg,var(--navy),var(--navy2));color:white;border-bottom:5px solid var(--gold)}
+.hero-inner{max-width:1120px;margin:auto;padding:34px 18px 30px}
+.school{font-size:15px;opacity:.9;font-weight:700}
+.hero h1{margin:8px 0;font-size:clamp(28px,4vw,46px)}
+.hero p{margin:0;max-width:760px;line-height:1.9;color:#e9f4fb}
+.stats{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.stat{background:#ffffff18;border:1px solid #ffffff33;border-radius:12px;padding:9px 13px;font-size:13px}
+.wrap{max-width:1120px;margin:auto;padding:24px 18px 40px}
+.top-note{background:#fff8e6;border:1px solid #efd58f;border-radius:14px;padding:12px 15px;line-height:1.8;margin-bottom:22px}
+.grade-section{margin:28px 0 34px}
+.grade-title{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.grade-badge{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;color:white;font-weight:900;font-size:20px;background:var(--navy2)}
+.grade-title h2{margin:0;color:var(--navy);font-size:24px}
+.grade-title p{margin:3px 0 0;color:var(--muted);font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+@media(max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.grid{grid-template-columns:1fr}}
+.card{background:white;border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 10px 24px #142e480d;display:flex;flex-direction:column;min-height:250px}
+.card-head{padding:18px;background:linear-gradient(135deg,#edf6fc,#fff);border-bottom:1px solid var(--line)}
+.card-icon{width:50px;height:50px;border-radius:14px;display:grid;place-items:center;background:#dceef9;font-size:28px;margin-bottom:12px}
+.card h3{margin:0;color:var(--navy);font-size:20px;line-height:1.5}
+.meta{display:flex;flex-wrap:wrap;gap:7px;margin-top:9px}
+.tag{font-size:12px;padding:5px 8px;border-radius:999px;background:#edf3f7;color:#52697d;border:1px solid #dde8ef}
+.tag.live{background:#e9f7f1;border-color:#bee4d4;color:#0d6d50}
+.card-body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:14px;flex:1}
+.card-body p{margin:0;color:var(--muted);line-height:1.75;font-size:14px}
+.actions{margin-top:auto;display:flex;gap:9px;flex-wrap:wrap}
+.btn{min-height:44px;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;border-radius:11px;padding:10px 14px;font-weight:800;font-size:14px}
+.btn-primary{background:var(--navy2);color:white}
+.btn-secondary{background:#edf3f7;color:var(--navy)}
+.btn-disabled{background:#f0f2f4;color:#9aa8b3}
+.howto{background:white;border:1px solid var(--line);border-radius:18px;padding:20px;margin-top:34px}
+.howto h2{margin-top:0;color:var(--navy)}
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+@media(max-width:800px){.steps{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.steps{grid-template-columns:1fr}}
+.step{background:#f8fbfd;border:1px solid var(--line);border-radius:13px;padding:13px;line-height:1.7;font-size:13px}
+.step strong{color:var(--navy2)}
+footer{text-align:center;color:var(--muted);font-size:13px;padding:8px 18px 30px}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="hero-inner">
+    <div class="school">مدرسة أبو تمام الحلقة الثانية والثالثة – بنين</div>
+    <h1>بوابة اختبارات الأستاذ فارس الجعبري</h1>
+    <p>بوابة موحّدة للاختبارات القصيرة والتفاعلية في العلوم والكيمياء، مرتبة حسب الصف والموضوع، ومهيأة للمشاركة المباشرة مع الطلبة.</p>
+    <div class="stats">
+      <span class="stat">علوم الصف التاسع</span>
+      <span class="stat">علوم الصف العاشر</span>
+      <span class="stat">كيمياء الصف الحادي عشر</span>
+      <span class="stat">اختبارات تفاعلية</span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="top-note">اختر الصف ثم افتح الاختبار المطلوب. البطاقات التي تحمل عبارة <strong>متاح الآن</strong> تعمل مباشرة، والبقية جاهزة لإضافة روابط الاختبارات القادمة.</div>
+
+  <section class="grade-section">
+    <div class="grade-title"><div class="grade-badge">9</div><div><h2>الصف التاسع العام</h2><p>مادة العلوم</p></div></div>
+    <div class="grid">
+      <article class="card"><div class="card-head"><div class="card-icon">🌿</div><h3>المخاطر التي تهدد التنوع الحيوي</h3><div class="meta"><span class="tag">اختبار قصير</span><span class="tag">اختيار من متعدد</span></div></div><div class="card-body"><p>الانقراض، الاستغلال الجائر، فقدان الموطن، تجزؤ الموطن، والأنواع المفتاحية.</p><div class="actions"><span class="btn btn-disabled">أضف الرابط لاحقًا</span></div></div></article>
+      <article class="card"><div class="card-head"><div class="card-icon">⚡</div><h3>انتقال الطاقة في النظام البيئي</h3><div class="meta"><span class="tag">قيد الإضافة</span></div></div><div class="card-body"><p>السلاسل الغذائية، الشبكات الغذائية، هرم الطاقة وهرم الأعداد.</p><div class="actions"><span class="btn btn-disabled">قريبًا</span></div></div></article>
+      <article class="card"><div class="card-head"><div class="card-icon">♻️</div><h3>تدوير المادة</h3><div class="meta"><span class="tag">قيد الإضافة</span></div></div><div class="card-body"><p>بطاقة جاهزة لإضافة اختبار جديد عند الانتهاء من تصميمه.</p><div class="actions"><span class="btn btn-disabled">قريبًا</span></div></div></article>
+    </div>
+  </section>
+
+  <section class="grade-section">
+    <div class="grade-title"><div class="grade-badge">10</div><div><h2>الصف العاشر العام</h2><p>مادة العلوم</p></div></div>
+    <div class="grid">
+      <article class="card"><div class="card-head"><div class="card-icon">❤️</div><h3>الجهاز الدوري</h3><div class="meta"><span class="tag live">متاح الآن</span><span class="tag">10 أسئلة</span><span class="tag">15 دقيقة</span></div></div><div class="card-body"><p>القلب وتركيبه، وظائف الجهاز الدوري، الأوعية الدموية، ومكونات الدم.</p><div class="actions"><a class="btn btn-primary" href="https://faresaljabari-lgtm.github.io/science10-circulatory-quiz/" target="_blank" rel="noopener">فتح الاختبار</a><span class="btn btn-secondary">كلمة المرور: SCI10-2026</span></div></div></article>
+      <article class="card"><div class="card-head"><div class="card-icon">💪</div><h3>الجهاز العضلي</h3><div class="meta"><span class="tag">قيد الإضافة</span></div></div><div class="card-body"><p>بطاقة مهيأة لإضافة اختبار الجهاز العضلي لاحقًا.</p><div class="actions"><span class="btn btn-disabled">قريبًا</span></div></div></article>
+      <article class="card"><div class="card-head"><div class="card-icon">🦴</div><h3>الجهاز الهيكلي</h3><div class="meta"><span class="tag">قيد الإضافة</span></div></div><div class="card-body"><p>الهيكل المحوري والطرفي، العظم الكثيف والإسفنجي، والنخاع العظمي.</p><div class="actions"><span class="btn btn-disabled">قريبًا</span></div></div></article>
+    </div>
+  </section>
+
+  <section class="grade-section">
+    <div class="grade-title"><div class="grade-badge">11</div><div><h2>الصف الحادي عشر العام</h2><p>مادة الكيمياء</p></div></div>
+    <div class="grid">
+      <article class="card"><div class="card-head"><div class="card-icon">⚛️</div><h3>نظرية الكم والذرة</h3><div class="meta"><span class="tag">قيد الإضافة</span></div></div><div class="card-body"><p>بور، مستويات الطاقة، أعداد الكم، والحالة الأرضية والمستثارة.</p><div class="actions"><span class="btn btn-disabled">قريبًا</span></div></div></article>
+      <article class="card"><div class="card-head"><div class="card-icon">🔬</div><h3>الترتيب الإلكتروني</h3><div class="meta"><span class="tag">قيد الإضافة</span></div></div><div class="card-body"><p>أوفباو، باولي، هوند، والترميز الإلكتروني.</p><div class="actions"><span class="btn btn-disabled">قريبًا</span></div></div></article>
+      <article class="card"><div class="card-head"><div class="card-icon">🧪</div><h3>الروابط والتفاعلات الكيميائية</h3><div class="meta"><span class="tag">قيد الإضافة</span></div></div><div class="card-body"><p>بطاقة جاهزة لاختبارات الروابط والتفاعلات والمحاليل.</p><div class="actions"><span class="btn btn-disabled">قريبًا</span></div></div></article>
+    </div>
+  </section>
+
+  <section class="howto">
+    <h2>طريقة إضافة أي اختبار جديد</h2>
+    <div class="steps">
+      <div class="step"><strong>1.</strong> أنشئ مستودع GitHub للاختبار وارفع ملف <code>index.html</code>.</div>
+      <div class="step"><strong>2.</strong> فعّل GitHub Pages من Settings → Pages.</div>
+      <div class="step"><strong>3.</strong> انسخ رابط الاختبار المنشور.</div>
+      <div class="step"><strong>4.</strong> أضف الرابط إلى البطاقة المناسبة في هذه الصفحة.</div>
+    </div>
+  </section>
+</main>
+
+<footer>إعداد وتصميم: أ. فارس الجعبري</footer>
+</body>
+</html>
